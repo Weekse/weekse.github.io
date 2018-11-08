@@ -26,7 +26,7 @@
 #navbar > ul {
   list-style-type: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end;    
 }
 #welcome-section {
   background: #E8DD1E;
@@ -37,6 +37,10 @@
   align-items: center;
   flex-direction: column;
   min-width: 100%;
+    font-size: 24px;
+}
+#welcome-section > h3 {
+    width: 50%;
 }
 #container2 {
   background: #22CA12;
