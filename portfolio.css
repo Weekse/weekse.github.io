@@ -125,7 +125,7 @@
   margin: 20px;
   display: flex;
 }
-#contbox > a:hover, a:active {
+#contbox > a:hover, #contbox > a:active {
   box-shadow: inset 5px 5px 5px 10px rgba(0,0,0,0.4);
 }
 #footer {
