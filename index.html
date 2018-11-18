@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width" />
+  <head>
+      <link rel='stylesheet' href='weather.css'>
+    <title>Weather</title>
+  </head>
+  
+  <body>
+    <div id='searchContainer'>
+      <input id='searchInput' type='text' placeholder='City Name...' autofocus />
+      <button id='searchBtn'>Search</button>
+    </div>
+
+    <div id='error'>Location Not Found</div>
+    
+    <div id='weatherContainer'>
+      <h1 id='city'></h1>
+      <div id='details'>
+        <div id='temp'></div>
+        <div id='desc'></div>
+        <div><img id='icon'></div>
+      </div>
+      <hr>
+      <div id='winds'></div>
+      <div id='humidity'></div>
+    </div>
+    <form id="butt" action="https://codepen.io/weekse/" target="_blank">
+      <input type="submit" value="More Projects" class="show-more"></input>
+    </form>
+      <script src='weather.js'></script>
+  </body>
+</html>
