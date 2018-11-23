@@ -1,49 +1,61 @@
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="portfolio.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel='stylesheet' type='text/css' href='animations.css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
-<body>
-  <div id="navbar">
-    <ul>
-      <li class="nav-item"><a href="#top">About</a></li>
-      <li class="nav-item"><a href="#container2">Projects</a></li>
-      <li class="nav-item"><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-  <div id="welcome-section">
-    <h1>Welcome!</h1><br><br>
-    <h3>My name is Matt Weekes.<br>I am a Web Designer and would love to work with you to bring your vision to life!</h3>
-  </div>
-  
-  <div id="container2">
-    <h3 id="project-title">Projects:</h3>
-    <div id="projects">
-      <a class="project-tile" href="https://codepen.io/weekse/full/xyQJdQ/" target="_blank"><img class="project-tile" src="http://i63.tinypic.com/2zfpush.png" height="240" width="320" alt="Fancy Rocks Preview"><p class="project-text">Fancy Rocks</p></a>
-      <a class="project-tile" href="https://codepen.io/weekse/full/KrMBaG/" target="_blank"><img class="project-tile" src="http://i66.tinypic.com/30j4ett.png" height="240" width="320" alt="Javascript Calculator Preview"><p class="project-text">Javascript Calculator</p></a>
-      <a class="project-tile" href="https://codepen.io/weekse/full/VVaBKp/" target="_blank"><img class="project-tile" src="http://i67.tinypic.com/2eaujwy.png" height="240" width="320" alt="Recruitment Preview"><p class="project-text">Recruitment Ad</p></a>
-    </div>
-    <form id="butt" action="https://codepen.io/weekse/" target="_blank">
-      <input type="submit" value="Show More" class="show-more"></input>
-    </form>
-  </div>
-  
-  <div id="contact">
-    <h2>Please contact me!</h2>
-    <div id="contbox">
-      <a href="https://www.facebook.com/Weekse1692" target="_blank" class="fab fa-facebook fa-3x"></a>
-      <a href="mailto:mattweekes92@gmail.com" target="_blank" class="far fa-envelope fa-3x"></a>
-      <a id="profile-link" href="https://www.freecodecamp.org/weekse" target="_blank" class="fab fa-free-code-camp fa-3x"></a>
-    </div>
-  </div>
-  
-  <div id="footer">
-      <p>Created by Matt Weekes</p>
-  </div>
-</body>
+    <body>
+        <div id='welcome-section'>
+            <h1>Welcome!</h1>
+            <p>I am a Web Developer and would love to help you bring your ideas to life!</p>
+        </div>
+
+        <div class='row animatedParent' data-sequence="200" id='skill-section'>
+            <p class='container'>I am familiar with the following:</p>
+            <dl class='container animated fadeInRight' data-id="2" id='skillList'>
+                <dt>HTML</dt><br>
+                <dt>CSS</dt>
+                <em><dd>Bootstrap</dd>
+                <dd>SCSS</dd>
+                <dd>Flexbox</dd></em><br>
+                <dt>Javascript</dt>
+                <em><dd>ES6</dd>
+                <dd>JQuery</dd>
+                <dd>React</dd></em><br>
+                <dt>Responsive Web Design</dt>
+            </dl>
+        </div>
+
+        <div class='row animatedParent' data-sequence="200" id='imgTiles'>
+            <a href="https://codepen.io/weekse/full/yQbgbg/" target="_blank"><img src='projectImg1.png' alt='Random Quote Machine img' class='img container animated fadeInLeft' data-id="1" ></img></a>
+            <a href="https://codepen.io/weekse/full/LXjvqv" target="_blank"><img src='projectImg2.png' alt='Weather App img' class='img container animated fadeInRight' data-id="2" ></img></a>
+            <a href="https://codepen.io/weekse/full/rQwMWK/" target="_blank"><img src='projectImg3.png' alt='To Do List img' class='img container animated fadeInRight' data-id="3" ></img></a>
+        </div>
+
+        <div class='row animatedParent' data-sequence="200" id='project-section'>
+            <p class='container animated fadeInLeft' data-id="1">You can see some of my projects live and view the source code at my Codepen.</p>
+            <div class='container animated fadeInRight' data-id="2" id='imgSelect'>
+              <a id='imgCont' href='https://codepen.io/weekse/' target='_blank'><img id='codepenImg' src='Codepen.png' alt='codepen logo' /></a>
+            </div>
+        </div>
+
+        <div class='row animatedParent' data-sequence="200" id='contact-section'>
+            <p class='container animated fadeInLeft' data-id="1">I look forward to hearing from you!</p>
+            <div class='container animated fadeInRight' data-id="2" id='links'>
+                <a href="emailto:mattweekes92@gmail.com" target='_blank' class="far fa-envelope fa-3x"></a>
+                <a href="https://www.freecodecamp.org/weekse" target="_blank" class="fab fa-free-code-camp fa-3x"></a>
+                <a href='https://www.linkedin.com/in/mathew-weekes-72baa2173/' target='_blank' class="fab fa-linkedin-in"></a>
+            </div>
+        </div>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        <script src='script.js'></script>
+        <script src='css3-animate-it.js'></script>
+    </body>
 </html>
