@@ -20,7 +20,7 @@ body {
 
 .container {
     width: 33%;
-    background: #2c2c2c;
+    background: #222;
     color: #eee;
     display: flex;
     flex-direction: column;
@@ -64,12 +64,12 @@ body {
 
 #skill-section {
     font-size: 3vh;
-    background: #111;
+    background: #0a0a0a;
 }
 
 #skillList {
     padding: 20px;
-    background: #444;
+    background: #333;
     color: #000;
 }
 
@@ -99,11 +99,11 @@ body {
 #project-section {
     font-size: 3vh;
     padding: 30px;
-    background: #111;
+    background: #0a0a0a;
 }
 #project-section p {
     padding: 15px;
-    background: #444;
+    background: #1d1d1d;
 }
 #codepenImg {
     width: 200px;
@@ -150,13 +150,14 @@ body {
 }
 #contact-section p {
     padding: 30px;
+    background: #222;
 }
 
 #links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: #444;
+    background: #1d1d1d;
 }
 
 #links a {
