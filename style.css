@@ -64,6 +64,9 @@ body {
     height: 320px;
     width: 400px;
 }
+#imgTiles > a:hover {
+    opacity: 0.9;
+}
 
 #project-section {
     font-size: 3vh;
