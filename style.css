@@ -162,7 +162,19 @@ ul {
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1000px) {
+    #welcome {
+        background: #000 url('nebula.jpg') center/cover no-repeat;
+    }
+    #ib1 {
+        background: #000 url('aurora.jpg') center/cover no-repeat;
+    }
+    #ib2 {
+        background: #000 url('spiral.jpg') center/cover no-repeat;
+    }
+}
+
+@media only screen and (max-width: 850px) {
     .heading {
         font-size: 2.5vh;
     }
