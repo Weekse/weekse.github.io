@@ -6,7 +6,7 @@ body, html {
 }
 
 /*   IMAGES THANKS TO UNSPLASH.COM + PIXABAY.COM  */
-/* TODO: WISPY WELCOME TEXT? */
+
 #nav {
     position: fixed;
     top: 0;
@@ -69,13 +69,13 @@ ul {
     width: 33%;
 }
 #ai1 {
-    background: url("pics/thinking.png") center/contain no-repeat content-box;
+    background: url("thinking.png") center/contain no-repeat content-box;
 }
 #ai2{
-    background: url("pics/responsive2.png") center/contain no-repeat content-box;
+    background: url("responsive2.png") center/contain no-repeat content-box;
 }
 #ai3 {
-    background: url("pics/toolbox.png") center/contain no-repeat content-box;
+    background: url("toolbox.png") center/contain no-repeat content-box;
 }
 
 .area-text {
