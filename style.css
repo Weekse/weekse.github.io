@@ -192,6 +192,9 @@ ul {
     .area-text, .area-image {
         width: 80%;
     }
+    .area-image {
+        height: 25%;
+    }
     .heading {
         font-size: 3vh;
     }
@@ -209,9 +212,6 @@ ul {
 @media only screen and (max-width: 375px) {
     .heading {
         font-size: 2.5vh;
-    }
-    .text {
-        font-size: 1.2vh;
     }
     .text-break > h2, #welcome-text {
         font-size: 4vh;
