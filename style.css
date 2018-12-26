@@ -316,6 +316,9 @@ h3 {
     #contact {
         padding-bottom: 0;
     }
+    .text-break > h2 {
+        -webkit-text-stroke-width: 1px;
+    }
 }
 @media only screen and (max-width: 400px) {
     #services-one > h3 {
