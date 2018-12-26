@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <title>Digital Galaxy Web Designs</title>
-    <meta name="description" content="Affordable Websites, Competitive Prices, Custom Designs, Wollongong based web development" />
+    <meta name="description" content="Wollongong based web development. We offer custom designed websites at affordable prices!" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" id="css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" 
@@ -13,19 +14,19 @@
 <body>
     <div id="nav">
         <ol>
-            <li class="nav-btn"><a href="#main">HOME</a></li>
-            <li class="nav-btn"><a href="#ib3">SERVICES</a></li>
+            <li class="nav-btn"><a href="#main">HOME</a></li> <!-- UPDATE NAV FOR MULTI-PAGE ON ALL PAGES -->
+            <li class="nav-btn"><a href="services.html">SERVICES</a></li>
             <li class="nav-btn"><a href="#contact">CONTACT</a></li>
         </ol>
     </div>
 
     <div id="main">
-        <div id="welcome">
+        <div class="welcome lax" id="welcome-hero">
             <h1 id="welcome-text">DIGITAL GALAXY<br>ETHEREAL DESIGNS - COMPETITIVE PRICES</h1>
         </div>
 
         <div class="area" id="about">
-            <div class="area-image" id="ai1"></div>
+            <div class="area-image" id="ai1" title="thinking-graphic"></div>
             <div class="area-text">
                 <h2 class="heading">DO I NEED A WEBSITE?</h2>
                 <p class="text">Having a web presence is a powerful way to be noticed. 
@@ -36,7 +37,7 @@
             </div>
         </div>
 
-        <div class="image-break" id="ib1">
+        <div class="image-break lax" id="ib1">
             <div class="text-break">
                 <h2>OUTSHINE YOUR COMPETITION<br>WITH STELLAR DESIGNS</h2>
             </div>
@@ -52,17 +53,17 @@
                         happy with the result.
                 </p>
             </div>
-            <div class="area-image" id="ai2"></div>
+            <div class="area-image" id="ai2" title="layouts-graphic"></div>
         </div>
 
-        <div class="image-break" id="ib2">
+        <div class="image-break lax" id="ib2">
             <div class="text-break">
                 <h2>YOUR WEBSITE WILL HAVE PLENTY OF ATMOSPHERE</h2>
             </div>
         </div>
 
         <div class="area">
-            <div class="area-image" id="ai3"></div>
+            <div class="area-image" id="ai3" title="toolbox-graphic"></div>
             <div class="area-text">
                 <h2 class="heading">THE RIGHT TOOL FOR THE JOB!</h2>
                 <p class="text">We will work out exactly what way to deliver your website.
@@ -74,7 +75,7 @@
             </div>
         </div>
 
-        <div class="image-break" id="ib3">
+        <div class="image-break lax" id="ib3">
             <div class="text-break">
                 <h2>SERVICES WE PROVIDE</h2>
             </div>
@@ -90,22 +91,22 @@
                     Support and Advice.
                 </p>
             </div>
-            <div class="area-image" id="ai4"></div>
+            <div class="area-image" id="ai4" title="brackets-graphic"></div>
         </div>
 
     </div>
 
     <div id="contact">
-        <h3>We look forward to hearing from you!</h3>
+        <h2>We look forward to hearing from you!</h2>
         <div id="icons">
-            <a id="mail" href="mailto:mattweekes92@gmail.com"><i class="far fa-envelope"></i></a>
-            <a href="https://www.facebook.com/weekse1692/"><i class="fab fa-facebook-f"></i></a>
-            <a id="phone" href="tel:403551943"><i class="fas fa-mobile-alt"></i></a>
+            <a href="https://www.facebook.com/weekse1692/"><i class="fab fa-facebook-f"></i>Visit us on Facebook</a>
+            <a id="phone" href="tel:403551943"><i class="fas fa-mobile-alt"></i>0403 551 943</a>
+            <a id="mail" href="mailto:mattweekes92@gmail.com"><i class="far fa-envelope"></i>mattweekes92@gmail.com</a>
         </div>
         <h4 id="alert">Copied to clipboard!</h4>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="jquery.paroller.min.js"></script>
 </body>
 </html>
