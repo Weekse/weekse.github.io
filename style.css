@@ -95,6 +95,7 @@ ol {
 }
 #ai4 {
     background: url("images/hex.png") center/contain no-repeat content-box;
+    margin-bottom: 2%;
 }
 
 .area-text {
@@ -374,6 +375,9 @@ h3 {
     #icons {
         width: 80%;
     }
+    #icons i {
+        padding-right: 20px;
+    }
 }
 
 @media only screen and (max-width: 420px) {
@@ -393,11 +397,18 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 377px) {
     .heading {
         font-size: 2.5vh;
     }
     .text-break > h2, #welcome-text {
         font-size: 4vh;
+    }
+    #icons a {
+        width: 95%;
+        padding: 3px;
+        border-radius: 3px;
+        margin-bottom: 2px;
+        font-size: 2.7vh;
     }
 }
