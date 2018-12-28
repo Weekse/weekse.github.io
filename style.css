@@ -29,7 +29,7 @@ ol {
 .nav-btn > a {
     color: #000;
     text-decoration: none;
-    padding: 18px;
+    padding: 17px;
     margin: 0 5px;
     transition: 1s;
 }
@@ -44,7 +44,7 @@ ol {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 85vh;
+    height: 95vh;
 }
 /*  set background images   */
 #welcome-hero {
@@ -84,6 +84,20 @@ ol {
     height: 50%;
     width: 33%;
 }
+
+.hidden {
+    opacity: 0;
+}
+
+.fade-in-element {
+    animation: fade-in 2s;
+}
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.5,.5)}
+    to {opacity: 1;}
+}
+
+
 #ai1 {
     background: url("images/thinking.png") center/contain no-repeat content-box;
 }
@@ -148,14 +162,20 @@ ol {
     background: #000;
     color: #fff;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    min-height: 200px;
-    padding-bottom: 40px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 5%;
 }
 
-#contact > h2 {
+#copyright {
+    font-size: 1.8vh;
+}
+#copyright > p {
+    margin: 0;
+}
+
+#contact-links > h2 {
     text-align: center;
     font-size: 3vh;
 }
@@ -183,9 +203,8 @@ ol {
     transition: 1s;
 }
 
-#contact > h4 {
+#alert {
     display: none;
-    margin-top: 2px;
     font-size: 2vh;
 }
 
@@ -243,7 +262,7 @@ h3 {
     border-top: 1px solid #ddd;
 }
 .website-types-section > p {
-    font-size: 2vh;
+    font-size: 2.3vh;
 }
 
 .pro-con {
@@ -261,13 +280,13 @@ h3 {
 .sub-div > p {
     text-align: center;
     font-weight: bold;
-    font-size: 2vh;
+    font-size: 2.3vh;
 }
 .pro-con-list{
     list-style-type: none;
 }
 .pro-con-list>li {
-    font-size: 1.8vh;
+    font-size: 2.2vh;
     margin-bottom: 10px;
 }
 .pro-con-list li::before {
@@ -294,6 +313,8 @@ h3 {
 
 
 /*  MEDIA QUERY -- SERVICES AND PRICING  */
+
+
 
 @media only screen and (max-width: 800px) {
     .services-section {
@@ -341,7 +362,6 @@ h3 {
     }
 }
 
-
 @media only screen and (max-width: 850px) {
     .heading {
         font-size: 2.5vh;
@@ -349,6 +369,11 @@ h3 {
     
     .text {
         font-size: 1.5vh;
+    }
+    #contact {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
@@ -368,9 +393,6 @@ h3 {
     }
     .text {
         font-size: 2vh;
-    }
-    #contact > h3 {
-        text-align: center;
     }
     #icons {
         width: 80%;
