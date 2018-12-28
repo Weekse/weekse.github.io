@@ -375,6 +375,9 @@ h3 {
         justify-content: space-between;
         align-items: center;
     }
+    #copyright > p {
+        margin: 10px;
+    }
 }
 
 
@@ -395,7 +398,8 @@ h3 {
         font-size: 2vh;
     }
     #icons {
-        width: 80%;
+        width: 95%;
+        padding: 0;
     }
     #icons i {
         padding-right: 20px;
