@@ -166,7 +166,7 @@ ol {
     flex-direction: row-reverse;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 2% 5%;
 }
 
 #copyright {
