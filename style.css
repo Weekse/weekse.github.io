@@ -49,16 +49,16 @@ ol {
 }
 /*  set background images   */
 #welcome-hero {
-    background: #000 url('images/nebula.jpg') center / 100% 100% no-repeat fixed;
+    background: #000 url('images/nebula.webp') center / 100% 100% no-repeat fixed;
 }
 #ib1 {
-    background: #000 url('images/aurora.jpg') center / 100% 110% no-repeat fixed;
+    background: #000 url('images/aurora.webp') center / 100% 110% no-repeat fixed;
 }
 #ib2 {
-    background: #000 url('images/eagle.jpg') center / 100% 110% no-repeat fixed;
+    background: #000 url('images/eagle.webp') center / 100% 110% no-repeat fixed;
 }
 #ib3 {
-    background: #000 url('images/purple.jpg') center / 100% 110% no-repeat fixed;
+    background: #000 url('images/purple.webp') center / 100% 110% no-repeat fixed;
 }
 
 #welcome-text {
@@ -100,16 +100,16 @@ ol {
 
 
 #ai1 {
-    background: url("images/thinking.png") center/contain no-repeat content-box;
+    background: url("images/thinking.webp") center/contain no-repeat content-box;
 }
 #ai2{
-    background: url("images/responsive2.png") center/contain no-repeat content-box;
+    background: url("images/responsive2.webp") center/contain no-repeat content-box;
 }
 #ai3 {
-    background: url("images/toolbox.png") center/contain no-repeat content-box;
+    background: url("images/toolbox.webp") center/contain no-repeat content-box;
 }
 #ai4 {
-    background: url("images/hex.png") center/contain no-repeat content-box;
+    background: url("images/hex.webp") center/contain no-repeat content-box;
     margin-bottom: 2%;
 }
 
@@ -213,7 +213,7 @@ ol {
 /*   END OF INDEX.HTML ---- START OF SERVICES.HTML   */
 
 #services-hero {
-    background: #000 url('images/spiral.jpg') center / 100% 100% no-repeat fixed;
+    background: #000 url('images/spiral.webp') center / 100% 100% no-repeat fixed;
 }
 
 #services-text {
