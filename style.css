@@ -188,6 +188,7 @@ ol {
 #icons i {
     font-size: 3vh;
     padding-right: 40px;
+    width: 10px;
 }
 #icons a {
     text-decoration: none;
