@@ -210,6 +210,14 @@ ol {
     font-size: 2vh;
 }
 
+.desktop-tel {
+    cursor: pointer;
+}
+
+.mobile-tel {
+    display: none;
+}
+
 /*   END OF INDEX.HTML ---- START OF SERVICES.HTML   */
 
 #services-hero {
@@ -481,6 +489,13 @@ h3 {
     #services-two {
         border-top: 1px solid #ccc;
         border-left: none;
+    }
+    .desktop-tel {
+        display: none;
+    }
+    
+    .mobile-tel {
+        display: block;
     }
 }
 
