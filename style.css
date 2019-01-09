@@ -390,7 +390,9 @@ h3 {
     width: 25%;
     background: #000;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 40px;
+    padding-bottom: 20px;
+    box-shadow: -4px 4px 10px #000;
 }
 .prices-box > h4 {
     margin: 0;
