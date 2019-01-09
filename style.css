@@ -306,9 +306,11 @@ h3 {
     color: #fff;
     padding-top: 20px;
 }
+
 #cms-pro {
-    width: 90%;
+    width: 70%;
 }
+
 #cms-sub {
     background: rgb(0, 230, 107);
     color: #000;
@@ -431,7 +433,7 @@ h3 {
     .pro-con-list {
         margin-left: 10px;
     }
-    .website-types-section, .pricing-section {
+    .website-types-section, .pricing-section, #cms-pro {
         width: 90%;
     }
     #contact {
