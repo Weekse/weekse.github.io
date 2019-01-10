@@ -557,12 +557,14 @@ h3 {
     }
     #services-one > h3 {
         color: #000;
+        margin: 0;
     }
     #services-two > p {
         color: rgb(0, 230, 107);
     }
     #services-two > h3 {
         color: #fff;
+        margin: 0;
     }
 
     .sub-div {
@@ -570,7 +572,7 @@ h3 {
     }
     .services-section {
         width: 80%;
-        padding: 0 10%;
+        padding: 10%;
     }
 
     #services-two {
