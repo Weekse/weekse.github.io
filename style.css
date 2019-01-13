@@ -172,7 +172,7 @@ ol {
     -webkit-text-stroke-color: #000;
     -webkit-text-stroke-width: 2px;
     text-shadow: -2px 2px 5px #fff;
-    font-size: 6vh;
+    font-size: 5.5vh;
     text-align: center;
 }
 
@@ -447,6 +447,7 @@ h3 {
     }
     .text-break > h2 {
         -webkit-text-stroke-width: 1px;
+        font-size: 4vh;
     }
 }
 
@@ -594,12 +595,12 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 442px) {
     .heading {
         font-size: 2.5vh;
     }
     .text-break > h2, #welcome-text {
-        font-size: 4vh;
+        font-size: 3vh;
     }
     #contact {
         width: 100%;
