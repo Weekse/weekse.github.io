@@ -318,7 +318,7 @@ h3 {
 #cms-sub {
     background: rgb(0, 230, 107);
     color: #000;
-    box-shadow: 0 4px 10px rgb(0, 230, 107);
+    box-shadow: -4px 4px 6px rgba(0, 230, 107, 0.8);
 }
 #cms-list > li {
     color: #000;
@@ -344,7 +344,7 @@ h3 {
     color: rgb(0, 230, 107);
     border-radius: 10px;
     width: 40%;
-    box-shadow: 0 4px 10px #000;
+    box-shadow: -4px 4px 6px rgb(41, 41, 41);
 }
 .sub-div > p {
     text-align: center;
@@ -503,6 +503,9 @@ h3 {
     #copyright {
         margin: 10px;
     }
+    #welcome-hero {
+        font-size: 5vh;
+    }
 }
 
 @media only screen and (max-width: 560px) {
@@ -591,7 +594,7 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 377px) {
+@media only screen and (max-width: 420px) {
     .heading {
         font-size: 2.5vh;
     }
