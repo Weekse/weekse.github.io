@@ -4,6 +4,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 /*   IMAGES THANKS TO UNSPLASH.COM + PIXABAY.COM + NASA */
