@@ -394,7 +394,7 @@ h3 {
     width: 25%;
     background: #000;
     color: #fff;
-    border-radius: 40px;
+    border-radius: 10px;
     padding-bottom: 20px;
     box-shadow: 0 4px 10px #000;
 }
@@ -513,6 +513,9 @@ h3 {
     .nav-btn > a {
         margin: 0;
     }
+    .text-break > h2 {
+        font-size: 3.5vh;
+    }
 }
 
 @media only screen and (max-width: 580px) {
@@ -595,12 +598,9 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 442px) {
+@media only screen and (max-width: 444px) {
     .heading {
         font-size: 2.5vh;
-    }
-    .text-break > h2, #welcome-text {
-        font-size: 3vh;
     }
     #contact {
         width: 100%;
