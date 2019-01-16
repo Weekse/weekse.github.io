@@ -4,7 +4,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100%;
     width: 100%;
-    overflow-x: hidden;
     background: rgb(0, 230, 107);
 }
 
@@ -600,7 +599,7 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 444px) {
+@media only screen and (max-width: 500px) {
     .heading {
         font-size: 2.5vh;
     }
