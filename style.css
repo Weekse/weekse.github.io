@@ -91,11 +91,11 @@ ol {
 }
 
 .l-txt {
-    background-image: linear-gradient(-110deg, rgb(0, 230, 107) 0%, 47%, rgb(0, 230, 107) 47%, 47.3%, #000, /*rgb(67, 0, 122)*/#000 47.7%);
+    background-image: linear-gradient(-110deg, rgb(0, 230, 107) 0%, 47%, #000 47%);
 }
 
 .r-txt {
-    background-image: linear-gradient(110deg, rgb(0, 230, 107) 0%, 47%, rgb(0, 230, 107) 47%, 47.3%, #000, /*rgb(67, 0, 122)*/#000 47.7%);
+    background-image: linear-gradient(110deg, rgb(0, 230, 107) 0%, 47%, #000 47%);
 }
 
 .area-image {
@@ -260,7 +260,7 @@ ol {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-image: linear-gradient(-90deg, rgb(0, 230, 107) 0%, 50%, rgb(0, 230, 107) 50%, 50.3%, #000, /*rgb(67, 0, 122)*/#000 50.7%);
+    background-image: linear-gradient(-90deg, rgb(0, 230, 107) 0%, 50%, #000 50%);
 
 }
 
