@@ -66,17 +66,19 @@ ol {
 }
 
 #welcome-text {
-    font-size: 7vh;
+    font-size: 7.5vh;
     font-family: 'Bungee', cursive;
-    color: transparent;
-    -webkit-text-stroke-color: #fff;
-    opacity: 0.8;
-    -webkit-text-stroke-width: thin;
-    text-shadow: -1px 1px 25px rgba(0,0,0,0.9);
+    color: #000;
+    opacity: 0.7;
+    text-shadow:
+        -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
 }
 
 .heading, #service-heading, h3 {
-    font-family: 'Spicy Rice', cursive;
+    font-family: 'Baloo Thambi', cursive;
 }
 
 .area {
@@ -123,10 +125,6 @@ ol {
 }
 #ai3 {
     background: url("images/toolbox.png") center/contain no-repeat content-box;
-}
-#ai4 {
-    background: url("images/hex.png") center/contain no-repeat content-box;
-    margin-bottom: 2%;
 }
 
 .area-text {
@@ -176,6 +174,42 @@ ol {
     font-size: 5.5vh;
     text-align: center;
 }
+
+.container {
+    padding: 40px 0;
+}
+.container > h2 {
+    color: #000;
+    text-align: center;
+    font-size: 4vh;
+    border-bottom: 1px solid #000000;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    padding: 10px;
+    width: 30%;
+    background: #000;
+    color: rgb(0, 230, 107);
+    margin: 25px 5px 0 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.service-icons {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    background: rgb(0, 230, 107);
+}
+
 
 
 #contact {
@@ -420,9 +454,16 @@ h3 {
     box-shadow: inset 0 0 10px #000;
 }
 
-/*  MEDIA QUERY -- SERVICES AND PRICING  */
-
-
+/*   MEDIA QUERY  */
+@media only screen and (max-width: 1470px) {
+    .heading {
+        font-size: 3vh;
+    }
+    
+    .text {
+        font-size: 2vh;
+    }
+}
 
 @media only screen and (max-width: 1080px) {
     .services-section {
@@ -452,44 +493,17 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 850px) {
-    #prices-container {
-        flex-flow: wrap row;
-        justify-content: space-around;
-    }
-    
-    .prices-box {
-        width: 40%;
-    }
-
-    .prices-box > h4 {
-        height: 20px;
-        font-size: 1.6vh;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    #services-one > h3 {
-        margin-bottom: 50px;
-    }
-}
-
-/*   MEDIA QUERY -- INDEX.HTML  */
-@media only screen and (max-width: 1470px) {
-    .heading {
-        font-size: 3vh;
-    }
-    
-    .text {
-        font-size: 2vh;
-    }
-}
-
 @media only screen and (max-width: 1000px) {
     #contact {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+}
+
+@media only screen and (max-width: 909px) {
+    .text-box {
+        width: 40%;
     }
 }
 
@@ -508,14 +522,24 @@ h3 {
     #welcome-text {
         font-size: 5vh;
     }
+    #prices-container {
+        flex-flow: wrap row;
+        justify-content: space-around;
+    }
+    
+    .prices-box {
+        width: 40%;
+    }
+
+    .prices-box > h4 {
+        height: 20px;
+        font-size: 1.6vh;
+    }
 }
 
-@media only screen and (max-width: 560px) {
-    .nav-btn > a {
-        margin: 0;
-    }
-    .text-break > h2 {
-        font-size: 3.5vh;
+@media only screen and (max-width: 680px) {
+    .container > h2 {
+        width: 40%;
     }
 }
 
@@ -558,6 +582,35 @@ h3 {
     }
 }
 
+@media only screen and (max-width: 560px) {
+    .nav-btn > a {
+        margin: 0;
+    }
+    .text-break > h2 {
+        font-size: 3.5vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .heading {
+        font-size: 2.5vh;
+    }
+    #contact {
+        width: 100%;
+        padding: 0;
+    }
+    #icons a {
+        width: 100%;
+        padding: 3px;
+        border-radius: 3px;
+        margin-bottom: 2px;
+        font-size: 2.5vh;
+    }
+    #services-one > h3 {
+        margin-bottom: 50px;
+    }
+}
+
 @media only screen and (max-width: 450px) {
     .services-area {
         flex-direction: column;
@@ -578,7 +631,16 @@ h3 {
         color: #fff;
         margin: 0;
     }
-
+    .row {
+        flex-direction: column;
+    }
+    .container > h2 {
+        width: 66%;
+    }
+    .text-box {
+        width: 90%;
+        margin: 10px auto;
+    }
     .sub-div {
         width: 45%;
     }
@@ -599,19 +661,19 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .heading {
-        font-size: 2.5vh;
+@media only screen and (max-width: 400px) {
+    .pro-con {
+        flex-direction: column;
     }
-    #contact {
-        width: 100%;
-        padding: 0;
+    .sub-div {
+        width: 90%;
+        margin: 20px auto;
     }
-    #icons a {
-        width: 100%;
-        padding: 3px;
-        border-radius: 3px;
-        margin-bottom: 2px;
-        font-size: 2.5vh;
+    #prices-container {
+        flex-direction: column;
+    }
+    .prices-box {
+        width: 80%;
+        margin: 15px auto;
     }
 }
