@@ -277,16 +277,6 @@ ol {
     background: #000 url('images/spiral.jpg') center / 100% 100% no-repeat fixed;
 }
 
-#services-text {
-    font-size: 7vh;
-    font-family: 'Bungee', cursive;
-    color: transparent;
-    -webkit-text-stroke-color: #fff;
-    opacity: 0.8;
-    -webkit-text-stroke-width: 1px;
-    text-shadow: -1px 1px 15px rgba(0,0,0,0.8);
-}
-
 .services-area {
     width: 100%;
     padding: 30px 0;
@@ -574,7 +564,8 @@ h3 {
         font-size: 2vh;
     }
     #icons {
-        width: 95%;
+        width: 90%;
+        margin: auto;
         padding: 0;
     }
     #icons i {
@@ -611,7 +602,7 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 460px) {
     .services-area {
         flex-direction: column;
         align-items: center;
@@ -675,5 +666,23 @@ h3 {
     .prices-box {
         width: 80%;
         margin: 15px auto;
+    }
+    #icons > a {
+        font-size: 2vh;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #hide {
+        display: none;
+    }
+    #icons {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #icons > a {
+        font-size: 0vh;
+        width: 20%;
+        text-align: center
     }
 }
