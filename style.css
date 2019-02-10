@@ -180,7 +180,7 @@ nav {
 }
 
 .text {
-    font-size: 2vh;
+    font-size: 2.3vh;
     color: #444;
 }
 
@@ -271,6 +271,7 @@ nav {
 .pro-con > ul > li {
     font-size: 2vh;
     color: #444;
+    margin-bottom: 5px;
 }
 
 .website-icon {
@@ -359,6 +360,7 @@ nav {
     text-decoration: none;
     color: #fff;
     transition: 0.3s;
+    margin: 10px 0;
 }
 
 #contact-links > a:hover {
