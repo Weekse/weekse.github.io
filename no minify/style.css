@@ -435,6 +435,7 @@ textarea {
     font-size: 5vh;
     font-family: 'Baloo Thambi', 'cursive';
     margin: 25px 0;
+    text-align: center;
 }
 
 .the-post > p {
