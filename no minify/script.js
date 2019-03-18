@@ -1,5 +1,5 @@
 /* desktop telephone click error message */
-
+/*
 var deskTel = document.getElementsByClassName('desktop-tel')[0];
 
 deskTel.addEventListener('click', sorry);
@@ -11,7 +11,7 @@ function sorry() {
         deskTel.innerHTML = '<i class="fas fa-mobile-alt"></i>0403 551 943';
     }, 1000);
 };
-
+*/
 /* clipboard copy */
 
 var mail = document.getElementById('mail');
