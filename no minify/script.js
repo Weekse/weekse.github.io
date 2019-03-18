@@ -28,7 +28,7 @@ mail.addEventListener('click', function(){
     mail.innerHTML = '<i class="far fa-envelope"></i>Copied to clipboard!';
 
     setTimeout(function(){
-        mail.innerHTML = '<i class="far fa-envelope"></i>zenithwebdesigns@gmail.com';
+        mail.innerHTML = '<i class="far fa-envelope"></i>';
     }, 1000);
 });
 
