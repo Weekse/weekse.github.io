@@ -414,6 +414,10 @@ textarea {
     box-shadow: 6px 6px 4px #aaa;
 }
 
+.tile-container > h2 {
+    max-width: 300px;
+}
+
         /* POSTS */
 .post-title {
     padding-top: 100px;
