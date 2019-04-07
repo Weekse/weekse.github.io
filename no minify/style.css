@@ -386,7 +386,7 @@ textarea {
 
 .tile-layout {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 50px 0;
