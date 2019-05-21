@@ -569,10 +569,28 @@ textarea {
     #nav {
         justify-content: space-between;
     }
+    .hero-area > h1 {
+        font-size: 5vh;
+    }
+    .hero-area > h2 {
+        font-size: 3vh;
+    }
+    .text-div > h3 {
+        font-size: 3.5vh;
+    }
+    .info-text {
+        font-size: 2.4vh;
+    }
+    .more-button {
+        font-size: 2.5vh;
+        padding: 10px;
+    }
     #what-we-do > h3 {
         width: 80%;
     }
-
+    .full-width-button {
+        font-size: 4vh;
+    }
     form {
         width: 90%;
     }
