@@ -626,6 +626,25 @@ textarea {
     #nav a:nth-child(4) {
         display: none;
     }
+    #index-bg {
+        background: none;
+    }
+
+    #bg-img1 {
+        background: none;
+    }
+    
+    #services-bg {
+        background: none;
+    }
+    
+    #contact-bg {
+        background: none;
+    }
+    
+    #blog-bg {
+        background: none;
+    }
 }
 
 @media only screen and (max-width: 300px) {
