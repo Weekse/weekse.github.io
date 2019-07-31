@@ -56,13 +56,11 @@ nav {
 
         /* HERO */
 #index-bg {
-    background-color: #777;
-    /*background: url('images/nebula.jpg') no-repeat center / cover fixed;*/
+    background: url('images/nebula.jpg') no-repeat center / cover fixed;
 }
 
 #services-bg {
-    background-color: #777;
-    /*background: url('images/spiral.jpg') no-repeat center / cover fixed;*/
+    background: url('images/spiral.jpg') no-repeat center / cover fixed;
 }
 
 #contact-bg {
@@ -143,8 +141,7 @@ nav {
 
         /* WHAT WE DO */
 #bg-img1 {
-    background-color: #777;
-    /*background: url('images/aurora.jpg') no-repeat center / cover fixed;*//
+    background: url('images/aurora.jpg') no-repeat center / cover fixed;
 }
 
 #what-we-do {
