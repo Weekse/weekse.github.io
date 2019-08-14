@@ -146,7 +146,7 @@ nav {
 
 #what-we-do {
     background: #eee;
-    padding: 50px 0;
+    padding: 50px %;
 }
 
 .content-tiles {
@@ -158,15 +158,15 @@ nav {
 
 .text-box {
     width: 30%;
-    margin: 5% 3.3%;
+    margin: 3% 0;
     background: #fff;
-    padding: 30px;
+    padding: 2%;
     border-radius: 4px;
     border: 1px solid black;
     box-shadow: 0 3px 8px #000;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
 }
 
 .no-shadow {
@@ -631,8 +631,8 @@ textarea {
         padding: 3px;
     }
     .text-box {
-        width: 100%;
-        padding: 1px;
+        width: 98%;
+        padding: 2%;
     }
     .pro-con-div {
         flex-direction: column;
