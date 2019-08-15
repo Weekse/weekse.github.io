@@ -424,7 +424,9 @@ textarea {
 }
 
 .post-title > img {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 96%;
     height: auto;
 }
 
